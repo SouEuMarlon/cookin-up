@@ -1,18 +1,45 @@
-# Vue 3 + TypeScript + Vite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Cookin' Up 👨‍🍳
 
-## Recommended IDE Setup
+Aplicação onde o usuário seleciona os ingredientes que tem disponível em casa e a aplicação retorna uma receita que seja possível fazer com os ingredientes selecionados.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Type Support For `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Stack utilizada
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Vue3 & TypeScript
+
+
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/SouEuMarlon/cookin-up.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd cookin-up
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev
+```
+
+## Screenshots
+
+![Itens não selecionados](https://raw.githubusercontent.com/SouEuMarlon/pictures/master/Cookin-Up.png?token=GHSAT0AAAAAACNBXZKRA5DXSDTK5WZLO3DQZOOTTLA)
+
+![Itens selecionados](https://raw.githubusercontent.com/SouEuMarlon/pictures/master/Cookin-Up2.png?token=GHSAT0AAAAAACNBXZKQX2WOIINT7Y5R5ZOYZOOTUAA)
